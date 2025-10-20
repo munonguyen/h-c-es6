@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <h2>MyPortfolio</h2>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#home" class="nav-link">Trang chủ</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">Giới thiệu</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">Dịch vụ</a></li>
+                    <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Liên hệ</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Chào mừng đến với Portfolio của tôi</h1>
+                <p>Tôi là một Web Developer chuyên nghiệp với kinh nghiệm trong HTML, CSS, JavaScript và nhiều công nghệ hiện đại khác.</p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">Xem Portfolio</a>
+                    <a href="#contact" class="btn btn-secondary">Liên hệ</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <p>Ảnh chân dung</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Giới thiệu về tôi</h2>
+                <p>Tìm hiểu thêm về background và kinh nghiệm của tôi</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Passionate Web Developer</h3>
+                    <p>Với hơn 3 năm kinh nghiệm trong lĩnh vực phát triển web, tôi chuyên tạo ra những website hiện đại, responsive và user-friendly. Tôi có kinh nghiệm làm việc với nhiều công nghệ khác nhau và luôn cập nhật những xu hướng mới nhất.</p>
+                    <div class="skills">
+                        <div class="skill">
+                            <span class="skill-name">HTML/CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">React</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <p>Ảnh làm việc</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Dịch vụ của tôi</h2>
+                <p>Những gì tôi có thể làm cho bạn</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Web Design</h3>
+                    <p>Thiết kế giao diện web hiện đại, đẹp mắt và phù hợp với thương hiệu của bạn.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>Frontend Development</h3>
+                    <p>Phát triển frontend với HTML, CSS, JavaScript và các framework hiện đại.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⚙️</div>
+                    <h3>Backend Development</h3>
+                    <p>Xây dựng backend mạnh mẽ với Node.js, Express và database.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Responsive Design</h3>
+                    <p>Đảm bảo website hoạt động tốt trên mọi thiết bị từ mobile đến desktop.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Portfolio</h2>
+                <p>Một số dự án tôi đã thực hiện</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">Project 1</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>E-commerce Website</h3>
+                        <p>Website thương mại điện tử hoàn chỉnh với giỏ hàng và thanh toán online.</p>
+                        <div class="portfolio-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">Project 2</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Restaurant Website</h3>
+                        <p>Website nhà hàng với menu online và hệ thống đặt bàn.</p>
+                        <div class="portfolio-tech">
+                            <span>HTML/CSS</span>
+                            <span>JavaScript</span>
+                            <span>PHP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="image-placeholder">Project 3</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Portfolio Website</h3>
+                        <p>Website portfolio cá nhân với thiết kế hiện đại và responsive.</p>
+                        <div class="portfolio-tech">
+                            <span>Vue.js</span>
+                            <span>Sass</span>
+                            <span>Firebase</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Liên hệ với tôi</h2>
+                <p>Hãy kết nối và thảo luận về dự án của bạn</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Thông tin liên hệ</h3>
+                    <div class="contact-item">
+                        <strong>📧 Email:</strong>
+                        <span>contact@myportfolio.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <strong>📞 Điện thoại:</strong>
+                        <span>+84 123 456 789</span>
+                    </div>
+                    <div class="contact-item">
+                        <strong>📍 Địa chỉ:</strong>
+                        <span>Hồ Chí Minh, Việt Nam</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">GitHub</a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Họ tên</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Chủ đề</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Tin nhắn</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Gửi tin nhắn</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 MyPortfolio. Tất cả quyền được bảo lưu.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
